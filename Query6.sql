@@ -1,6 +1,5 @@
-USE DBHospital;
+USE BookStoreDB;
 
-SELECT * FROM Patients;
-SELECT * FROM Medical_Staff;
-SELECT * FROM Treatments;
-SELECT * FROM MedicalRecords;
+SELECT Title 
+FROM Books 
+ORDER BY Price DESC;

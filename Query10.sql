@@ -1,5 +1,4 @@
-USE DBHospital
+USE BookStoreDB;
 
-DROP TABLE MedicalRecords;
-
-SELECT * FROM MedicalRecords;
+SELECT * FROM OrderItems
+ORDER BY Price DESC;
