@@ -1,5 +1,1 @@
-USE BookStoreDB;
-
-SELECT Title 
-FROM Books 
-ORDER BY Price DESC;
+CREATE INDEX idx_Author ON Books(Author);

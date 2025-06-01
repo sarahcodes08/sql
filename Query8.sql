@@ -1,4 +1,3 @@
-USE BookStoreDB;
+DROP INDEX idx_Author ON Books;
 
-SELECT * FROM Orders 
-ORDER BY OrderDate DESC;
+EXEC sp_helpindex 'dbo.books';

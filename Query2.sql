@@ -1,6 +1,4 @@
-USE BookStoreDB;
-
-SELECT 
-	MAX(Quantity) AS Max_quantity,
-	MIN(Quantity) AS Min_quantity
-FROM OrderItems;
+CREATE VIEW ActiveCustomers AS
+SELECT CustomerID, Name, Address
+FROM Customers 
+WHERE IsActive = 1;

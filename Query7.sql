@@ -1,5 +1,3 @@
-USE BookStoreDB;
+CREATE INDEX idx_ISBN ON Books(ISBN);
 
-SELECT Name 
-FROM Customers 
-ORDER BY Name ASC;
+EXEC sp_helpindex 'dbo.books';

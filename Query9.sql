@@ -1,4 +1,1 @@
-USE BookStoreDB;
-
-SELECT * FROM Books
-ORDER BY StockQuantity ASC;
+SELECT * FROM Books WHERE Author = 'John Doe';

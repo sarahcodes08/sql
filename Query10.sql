@@ -1,4 +1,1 @@
-USE BookStoreDB;
-
-SELECT * FROM OrderItems
-ORDER BY Price DESC;
+SELECT * FROM Books WHERE BookID = 101;
